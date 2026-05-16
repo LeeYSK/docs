@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: "Doc Tree"
-  text: "A Note Site"
+  text: "A Study Site"
   tagline: "家中无富贵, 口袋无财宝"
   image:
     src: /img.jpg

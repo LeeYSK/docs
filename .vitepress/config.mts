@@ -3,6 +3,11 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Doc Tree",     // 改成你想要的站点名
   description: '学习笔记与技术文档',
+
+  head: [
+    ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }]
+  ],
+
   cleanUrls: true,
   lastUpdated: true,
 

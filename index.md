@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "Doc Tree"
   text: "A Note Site"
-  tagline: "本来就一无所有, 何怕失去再多"
+  tagline: "家中无富贵, 口袋无财宝"
   image:
     src: /img.jpg
     alt: JuniorTree

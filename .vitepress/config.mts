@@ -25,36 +25,54 @@ export default defineConfig({
         link: '/about'
       },
       {
-        text: 'Kubernetes',
+        text: '电子书&文章',
         collapsed: true,    // 默认折叠
         items: [
-          { text: '简介', link: '/kubernetes/' },
-          { text: 'Pod', link: '/kubernetes/pod' }
-        ]
-      },
-      {
-        text: '操作系统',
-        collapsed: true,
-        items: [
-          { text: '简介', link: '/os/' }
+          { text: '设计模式', link: '/pdfs/design-pattern/tt_dp.pdf' }
         ]
       },
       {
         text: '开源软件',
         collapsed: true,
         items: [
-          { text: '简介', link: '/open-source/' }
+          { text: '简介', link: '/open-source/' },
+          {
+            text: '数据库',
+            collapsed: true,
+            items: [
+              { text: 'MySQL', link: '/open-source/database/mysql' },
+              { text: 'PostgreSQL', link: '/open-source/database/postgresql' },
+              { text: 'Redis', link: '/open-source/database/redis' }
+            ]
+          },
+          {
+            text: '运维工具',
+            collapsed: true,
+            items: [
+              { text: 'Docker', link: '/open-source/devops/docker' },
+              { text: 'Kubernetes', link: '/open-source/devops/k8s' },
+              { text: 'Nginx', link: '/open-source/devops/nginx' }
+            ]
+          },
+          {
+            text: '消息队列',
+            collapsed: true,
+            items: [
+              { text: 'RabbitMQ', link: '/open-source/mq/rabbitmq' },
+              { text: 'Kafka', link: '/open-source/mq/kafka' }
+            ]
+          }
         ]
-      },
+    },
       {
-        text: '使用 Linux',
+        text: 'Linux',
         collapsed: true,
         items: [
           { text: '简介', link: '/linux/' },
-          { text: '01 建立与管理项目文件', link: '/linux/01-project-files' },
-          { text: '02 使用 Unix Shell', link: '/linux/02-shell' },
-          { text: '03 生物信息学数据', link: '/linux/03-bioinfo' },
-          { text: '04 Unix 数据工具', link: '/linux/04-data-tools' }
+          { text: '01 杂笔', link: '/linux/01-mess-note' },
+          // { text: '02 使用 Unix Shell', link: '/linux/02-shell' },
+          // { text: '03 生物信息学数据', link: '/linux/03-bioinfo' },
+          // { text: '04 Unix 数据工具', link: '/linux/04-data-tools' }
         ]
       }
     ],
